@@ -88,6 +88,12 @@ h3 {
     /*display: inline-block;*/
     
 }
+
+.price{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 15px;
+}
 /*
 .menu-choice2{
     width: 316px;
@@ -125,9 +131,9 @@ h4{
     font-size: 16px;
     color: #003049;
     margin-top: 2px;
-    margin-right: 167px;
+    /*margin-right: 167px;*/
     margin-bottom: 8px;
-    margin-left: 12px;
+    /*margin-left: 12px;*/
     
     
    
@@ -138,11 +144,10 @@ p{
     font-size: 14px;
     color: #d62828;
     margin-top: 0px;
-    margin-right: 167px;
+   /* margin-right: 167px;
     margin-bottom: 22px;
-    margin-left: 12px;
-   
-  
+    margin-left: 12px;*/
+     
  }
 
   /* #price {
