@@ -71,7 +71,7 @@ h3 {
     color: black;
 }
 
-.menu-choice1
+.menu-choice
 {
     width: 316px;
     height: 88px;
@@ -85,8 +85,10 @@ h3 {
     box-sizing: border-box;
     padding-top: 6px;
     padding-left: 16px;
+    /*display: inline-block;*/
+    
 }
-
+/*
 .menu-choice2{
     width: 316px;
     height: 88px;
@@ -115,13 +117,19 @@ h3 {
     box-sizing: border-box;
     padding-top: 18px;
     padding-left: 14px;
-}
+    
+}*/
 
 h4{
     font-weight: 400;
     font-size: 16px;
     color: #003049;
-    float: right;
+    margin-top: 2px;
+    margin-right: 167px;
+    margin-bottom: 8px;
+    margin-left: 12px;
+    
+    
    
 }
 
@@ -129,14 +137,20 @@ p{
     font-weight: 500;
     font-size: 14px;
     color: #d62828;
-    float: right;     
-}
-
-/*h4, p {
-   
-    margin-top: 22px;
+    margin-top: 0px;
     margin-right: 167px;
-    margin-bottom: 47px;
+    margin-bottom: 22px;
     margin-left: 12px;
-}*/
+   
+    
+ }
+
+   .itemprice, #itemimg {
+        display: inline-block;
+        
+    }
+
+    
+
+
 
