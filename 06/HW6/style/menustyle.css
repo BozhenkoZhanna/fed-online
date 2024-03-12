@@ -142,14 +142,13 @@ p{
     margin-bottom: 22px;
     margin-left: 12px;
    
-    
+  
  }
 
-   .itemprice, #itemimg {
-        display: inline-block;
-        
-    }
-
+  /* #price {
+    display:inline-block;
+    padding-left: 15px;
+   }*/
     
 
 
