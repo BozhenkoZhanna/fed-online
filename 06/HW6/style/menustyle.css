@@ -69,8 +69,8 @@ height: 74px;*/
 
 
 .position-img{
-   /* width: 74px; 
-    height: 74px;*/
+    width: 74px; 
+    height: 74px;
     background: #EFEFEF;
     border-radius: 12px;
     margin-right: 24px;
@@ -94,9 +94,9 @@ height: 74px;*/
     
 }
 
-.menu-position:hover .position-title{
+/*.menu-position:hover .position-title{
     color: black;
-}
+}*/
 
 .menu-choice
 {
