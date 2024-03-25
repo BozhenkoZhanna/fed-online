@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+/*@font-face {
+    font-family: "My font";
+    src: url();
+}*/
+
+body{
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+   margin: 0;
+}
+.container {
+/*width: 400px;*/
+margin: 100px auto;
+background-color: lightcoral;
+text-align: center;
+padding: 50px;
+font-weight: 600px;
+line-height: 1.5;
+}
