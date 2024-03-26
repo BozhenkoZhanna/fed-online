@@ -30,7 +30,8 @@
     background: linear-gradient(180deg, #2137fc 0%, #2137fb 50.01%, #ffd84b 50.04%, #ffd84b 100%);
     /* text-align: center;*/
     margin-top: 32px;
-    margin-left: 216px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
