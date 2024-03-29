@@ -78,7 +78,7 @@ h2::before{
 .float-content{
     border: 2px solid black;
     background-color: green;
-    /*overflow: hidden;
+    overflow: hidden;
     clear: left;*/
 }
 
