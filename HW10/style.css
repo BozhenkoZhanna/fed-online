@@ -27,10 +27,11 @@ body {
 
 .main-container {
     margin: 0 auto;    
-    width: 1920px;
-    height: 960px;
+   width: 1920px;
+     height: 960px;
     background-color: rgba(0, 161, 198, 0.05);
     position: relative;
+   
 }
 
 .content-container {
@@ -39,6 +40,7 @@ body {
     text-align: left;
     padding-left: 315px;
     padding-top: 142px;
+   
     
 }
 
@@ -85,10 +87,15 @@ h3 {
 }
 
 .box-dev>img {
+    /*width: 120px;
+    height: 120px;
+    border-radius: 50%;*/
+    overflow: hidden;
     padding-top: 56px;
     padding-left: 87px;
     display: block;
     text-align: center;
+    
 }
 
 .box-dev>h4 {
@@ -195,3 +202,84 @@ h3 {
     height: 50px;
     padding: 12px;
 }
+
+.img-container5{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 91px;
+    margin-right: 14px;
+    background-color: #D63033;
+    text-align: center;
+}
+
+.img-container5>.logo5 {
+   
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+}
+
+.img-container6{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+  
+    background-color: #0AA9D7;
+    text-align: center;
+}
+
+.img-container6>.logo6 {
+   
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+}
+
+.img-container7{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 91px;
+    margin-right: 14px;
+  
+    background-color: #E44E25;
+    text-align: center;
+}
+
+.img-container7>.logo7 {
+   
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+}
+.img-container8{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+  
+    background-color: #1073BB;
+    text-align: center;
+}
+
+.img-container8>.logo8 {
+   
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+}
+
+/* section { 
+    box-sizing: border-box;
+    border: 1px solid blue;
+    width: 100%;
+    float: left;
+}*/
