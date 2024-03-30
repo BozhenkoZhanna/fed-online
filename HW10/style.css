@@ -3,7 +3,7 @@
 }
 
 body {
-   
+
 
     .catamaran {
         font-family: "Catamaran", sans-serif;
@@ -26,12 +26,13 @@ body {
 }
 
 .main-container {
-    margin: 0 auto;    
-   width: 1920px;
-     height: 960px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+     width: 1920px; 
+     height: 960px; 
     background-color: rgba(0, 161, 198, 0.05);
     position: relative;
-   
+
 }
 
 .content-container {
@@ -40,8 +41,8 @@ body {
     text-align: left;
     padding-left: 315px;
     padding-top: 142px;
-   
-    
+
+
 }
 
 h1 {
@@ -71,6 +72,11 @@ h3 {
     color: #2b292d;
 }
 
+.Dev-card-blocks{
+    display: flex;
+    align-items: center;
+}
+
 .box-dev {
     width: 295px;
     height: 470px;
@@ -82,8 +88,8 @@ h3 {
     border-radius: 24px;
     display: inline-block;
     vertical-align: middle;
-    
-    
+
+
 }
 
 .box-dev>img {
@@ -95,7 +101,7 @@ h3 {
     padding-left: 87px;
     display: block;
     text-align: center;
-    
+
 }
 
 .box-dev>h4 {
@@ -133,7 +139,7 @@ h3 {
     position: relative;
     left: 120px;
     text-align: center;
-    
+
 }
 
 .img-container>img {
@@ -154,7 +160,7 @@ h3 {
     margin-top: 0px;
     margin-left: 57px;
     margin-right: 15px;
-    
+
 }
 
 .img-container2>.logo2 {
@@ -163,10 +169,10 @@ h3 {
     height: 50px;
     text-align: center;
     padding: 10px;
-    
-  }
 
-  .img-container3{
+}
+
+.img-container3 {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -179,13 +185,13 @@ h3 {
 }
 
 .img-container3>.logo3 {
-   
+
     width: 50px;
     height: 50px;
     padding: 12px;
 }
 
-.img-container4{
+.img-container4 {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -197,13 +203,13 @@ h3 {
 }
 
 .img-container4>.logo4 {
-   
+
     width: 50px;
     height: 50px;
     padding: 12px;
 }
 
-.img-container5{
+.img-container5 {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -216,31 +222,31 @@ h3 {
 }
 
 .img-container5>.logo5 {
-   
+
     width: 50px;
     height: 50px;
     padding: 12px;
 }
 
-.img-container6{
+.img-container6 {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     overflow: hidden;
     display: inline-block;
-  
+
     background-color: #0AA9D7;
     text-align: center;
 }
 
 .img-container6>.logo6 {
-   
+
     width: 50px;
     height: 50px;
     padding: 12px;
 }
 
-.img-container7{
+.img-container7 {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -248,30 +254,31 @@ h3 {
     display: inline-block;
     margin-left: 91px;
     margin-right: 14px;
-  
+
     background-color: #E44E25;
     text-align: center;
 }
 
 .img-container7>.logo7 {
-   
+
     width: 50px;
     height: 50px;
     padding: 12px;
 }
-.img-container8{
+
+.img-container8 {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     overflow: hidden;
     display: inline-block;
-  
+
     background-color: #1073BB;
     text-align: center;
 }
 
 .img-container8>.logo8 {
-   
+
     width: 50px;
     height: 50px;
     padding: 12px;
