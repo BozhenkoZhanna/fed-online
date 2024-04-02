@@ -78,12 +78,13 @@ margin-right: 20px;
     border-radius: 100%;
     overflow: hidden;
     margin: 0 auto;
-    /* border: 3px solid #1a5db0; */
-}
+    border: 3px solid #1a5db0; 
+    }
 
 .user-photo {
-     width: 100%; 
+   width: 100%; 
     height: auto; 
+    box-sizing: content-box; 
 }
     
     
@@ -131,12 +132,12 @@ margin-right: 20px;
     margin-right: 0;
 }
 
-.skill-item>img {
-    /* width: 100%; */
+/* .skill-item>img { 
+    /* width: 100%; 
     padding: 10px;
     margin-top: 2px;
  
-   }
+   }*/
 
 .vue {
     background-color: #41B883;
@@ -172,4 +173,38 @@ margin-right: 20px;
 
 .vue7{
     background-color: #1073BB;
+}
+
+.img-logo1{
+    padding: 10px;
+    margin-top: 2px;  
+}
+
+.img-logo2{
+    padding: 10px;
+    margin-top: 0px;  
+}
+.img-logo3{
+    padding: 8px;
+    margin-top: 1px; 
+    margin-left: -5px; 
+}
+.img-logo4{
+    padding: 8px;
+ }
+.img-logo5{
+    padding: 8px;
+    
+}
+.img-logo6{
+    padding: 8px;
+      
+}
+.img-logo7{
+    padding: 10px;
+    margin-top: 2px;  
+}
+.img-logo8{
+    padding: 10px;
+    margin-top: 2px;  
 }
