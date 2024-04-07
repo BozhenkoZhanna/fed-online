@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color: #276561;
+    background-color: #fff;
+    position: relative;
+    display: inline;
+}
+
+.content-container { 
+     width: 1728px; 
+     /* height: 1117px;  */
+     margin: 0 auto; 
+    display:block;
+
+} 
+.info-page, .registration-form{
+    float: left;
+   width: 800px;
+    
+}
+.info-page {
+    /* width: 50%; */
+     margin: 0 auto; 
+}
+
+.Logo {
+    width: 249px;
+    height: 120px; 
+    font-weight: 800;
+    font-size: 32px;
+    display: block ;
+    margin-top: 45px;
+    margin-left: 29px;
+    margin-bottom: 107px;
+}
+.Image{
+    width: 576px;
+height: 576px;
+margin-top: 145px;
+margin-left: 126px;
+margin-right: 145px;
+margin-bottom: 135px;
+display: block;
+}
+
+.Image>img{
+    width: 100%;
+}
+
+.Info-block{
+    display: block;
+        width: 523px;
+height: 97px;
+margin-top: 135px;
+margin-left: 153px;
+margin-right: 171px;
+margin-bottom: 94px
+}
+
+.registration-form{
+     width: 50%; 
+    height: 100%;
+    display: block;
+   background-color: #276561;
+
+    margin-top: -50px;
+    /* margin-left: 880px; */
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.text-block{
+    font-weight: 800;
+font-size: 48px;
+text-align: center;
+color: #fff;
+}
+
+.text-block>strong{
+    font-weight: 300;
+font-size: 24px;
+text-align: center;
+color: #fff;
+}
