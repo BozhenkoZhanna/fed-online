@@ -9,25 +9,60 @@ body {
     font-size: 32px;
     color: #276561;
     background-color: #fff;
-    position: relative;
-    display: inline;
+    /* position: relative; */
+    /* display: inline; */
 }
 
-.content-container { 
+
+.info-page{
+    width: 847px;
+height: 1117px;
+display: flex;
+flex-direction: row
+align-items: flex-start;
+
+}
+
+.registration-form{
+    width: 847px;
+    height: 1117px;
+    background: #276561;
+    display: flex;
+flex-direction: row
+align-items: flex-start;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.content-container { 
      width: 1728px; 
-     /* height: 1117px;  */
+     /* height: 1117px;  
      margin: 0 auto; 
-    display:block;
+    display: flex;
 
 } 
-.info-page, .registration-form{
-    float: left;
-   width: 800px;
-    
-}
+
 .info-page {
-    /* width: 50%; */
-     margin: 0 auto; 
+    width: 880px; 
+    height: 1117px;
+    display: flex;
+   
+    /* align-items: center; 
+    
 }
 
 .Logo {
@@ -54,7 +89,7 @@ display: block;
     width: 100%;
 }
 
-.Info-block{
+.Info{
     display: block;
         width: 523px;
 height: 97px;
@@ -65,15 +100,13 @@ margin-bottom: 94px
 }
 
 .registration-form{
-     width: 50%; 
-    height: 100%;
-    display: block;
+     width: 880px; 
+    height: 1117px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
    background-color: #276561;
 
-    margin-top: -50px;
-    /* margin-left: 880px; */
-    margin-right: 0;
-    margin-bottom: 0;
 }
 .text-block{
     font-weight: 800;
