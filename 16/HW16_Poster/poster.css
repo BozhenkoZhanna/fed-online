@@ -43,7 +43,7 @@ header .container {
 }
 
 p {
-    padding-left: 26px;
+    margin-left: -728px;
    
     font-weight: 500;
     font-size: 24px;
@@ -60,15 +60,25 @@ p {
     /* margin-top: 77px;
     margin-left: 26px; */
     text-align: center;
+    /* align-self: flex-start; */
     
 }
 
     
 
-.header-group>button{
+/* .header-group>button{
     width: 43px;
     height: 43px;
     padding-right: 45px;
     padding-top: 50px;
 
+} */
+.search{
+    color: transparent;
+    /* width: 43px;
+    height: 43px; */
+    display: inline-block;
+    margin-top: -57px;
+    padding-right: 45px;
+    /* border: 1px solid white; */
 }
