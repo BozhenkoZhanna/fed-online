@@ -8,6 +8,7 @@ body {
     font-family: "Inter", sans-serif;
     font-style: normal;
     position: relative;
+    color:#c8c8c8;
 
 }
 
@@ -20,10 +21,11 @@ body {
     /* background-position: center center; */
 
 }
+ /* Header */
 
-.container {
+ .container {
     width: 90%;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 header {
@@ -33,8 +35,8 @@ header {
 
 header .container {
     display: flex;
-    justify-content: space-between ; 
-    align-items: center; 
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo>img {
@@ -43,8 +45,8 @@ header .container {
 }
 
 p {
-    margin-left: -728px;
-   
+    width: 250px;
+     margin-left: -585px; */
     font-weight: 500;
     font-size: 24px;
     color: #c8c8c8;
@@ -54,31 +56,89 @@ p {
 
 .logo>.date {
     display: inline-block;
-    
+
 }
-.date{
+
+.date {
     /* margin-top: 77px;
     margin-left: 26px; */
     text-align: center;
     /* align-self: flex-start; */
-    
+
 }
 
-    
-
-/* .header-group>button{
-    width: 43px;
-    height: 43px;
-    padding-right: 45px;
-    padding-top: 50px;
-
-} */
-.search{
-    color: transparent;
+.search {
     /* width: 43px;
     height: 43px; */
     display: inline-block;
     margin-top: -57px;
     padding-right: 45px;
-    /* border: 1px solid white; */
+    text-align: center;
+}
+
+.search>svg {
+    text-align: center;
+}
+
+
+/* Main container */
+
+main{
+    display: inline-block;
+    width: 76%;
+    margin-left: 162px;
+    margin-top: 116px;
+}
+.genre{
+    width: 564px;
+    height: 30px;
+font-weight: 500;
+font-size: 32px;
+color: #fff;
+display: flex;
+ justify-content: flex-start
+/* align-items: flex-start; */
+
+}
+.text-block{
+    display: inline-block;
+    padding-right: 20px;
+    margin-left: 20px; 
+    border-right: 3px solid #c8c8c8;
+    
+}
+.text-block:last-child{
+    border-right: none;
+}
+.text-block:first-child{
+    margin-left: 0px;
+}
+.details .text-block{
+    display: inline-block;
+    /* justify-content: row;
+    align-items: flex-start; */
+
+}
+ h3>h4{ 
+    display: inline-block;
+ }
+
+h1{
+    font-weight: 800;
+    font-size: 64px;
+    letter-spacing: 0.06em;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h3{
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+
+}
+h4{
+    font-weight: 400;
+    font-size: 29px;
+    color: #a7a6a6;
 }
