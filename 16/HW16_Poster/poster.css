@@ -8,7 +8,7 @@ body {
     font-family: "Inter", sans-serif;
     font-style: normal;
     position: relative;
-    color:#c8c8c8;
+    color: #c8c8c8;
 
 }
 
@@ -21,44 +21,71 @@ body {
     /* background-position: center center; */
 
 }
- /* Header */
 
- /* .container {
-    width: 90%; */
-    /* margin: 0 auto; */
-/* } */
-.container{
-    max-width: 1180px;
+/* Header */
+
+
+.container {
+    max-width: 1630px;
     position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: center;
-   
+    align-items:center;
+
 }
 
 header {
     padding-top: 70px;
     padding-left: 80px;
-    max-width: 1180px;
+    /* width: 1520px; */
+    /* max-width: 90%; */
+    margin-bottom: 115px;
+   
 }
 
-header .container {
+.container {
+    
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
-
-.logo>img {
+.block{
+    display: inline-block;
+    
+}
+/* .left{
+    align-items: baseline;
+} */
+.left .block{
+    margin-left: 80px;
+    border-right: 3px solid #c8c8c8;
+    padding-right: 16px;
+    
+    }
+    .left .block:last-child{
+        border-right: none;
+        margin-left: 8px;
+        align-self: center;
+    }
+    .left .block:first-child{
+        margin-left: 20px;
+    }
+    .right .block{
+        margin-right: 20px;
+    }
+    main{margin-left: 80px;}
+/* .logo>img {
     border-right: 3px solid #c8c8c8;
     padding-right: 16px;
 }
 
 p {
     width: 250px;
-    margin-left: -545px; 
+    margin-left: -545px;
     font-weight: 500;
     font-size: 24px;
     color: #c8c8c8;
@@ -72,17 +99,16 @@ p {
 }
 
 .date {
-    /* margin-top: 77px;
-    margin-left: 26px; */
+
     text-align: center;
-    /* align-self: flex-start; */
+    margin-left: 289px;
 
 }
 
 .search {
     /* width: 43px;
     height: 43px; */
-    display: inline-block;
+    /* display: inline-block;
     margin-top: -57px;
     padding-right: 45px;
     text-align: center;
@@ -90,56 +116,63 @@ p {
 
 .search>svg {
     text-align: center;
-}
+} */ */
 
 
 /* Main container */
 
-main{
+.main {
     display: inline-block;
     width: 76%;
-    margin-left: 162px;
+    margin-left: 80px;
     margin-top: 116px;
 }
-.genre{
+
+.genre {
     width: 564px;
     height: 30px;
-font-weight: 500;
-font-size: 32px;
-color: #fff;
-display: flex;
- justify-content: flex-start
-/* align-items: flex-start; */
+    font-weight: 500;
+    font-size: 32px;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start
+        /* align-items: flex-start; */
 
 }
-.text-block{
+
+.text-block {
     display: inline-block;
     width: auto;
     padding-right: 20px;
-    margin-left: 20px; 
+    margin-left: 20px;
     border-right: 3px solid #c8c8c8;
-    
+
 }
-.text-block:last-child{
+
+.text-block:last-child {
     border-right: none;
 }
-.text-block:first-child{
+
+.text-block:first-child {
     margin-left: 0px;
 }
-.details .text-block{
+
+.details .text-block {
     display: inline-flex;
     justify-content: space-around;
     align-items: baseline;
-    
-}
- .details{
-    margin-bottom: 30px;
-} 
- h3>h4{ 
-    display: inline-block;
- }
 
-h1{
+}
+
+.details {
+    margin-bottom: 30px;
+}
+
+h3>h4 {
+    display: inline-block;
+}
+
+h1 {
     font-weight: 800;
     font-size: 64px;
     letter-spacing: 0.06em;
@@ -147,47 +180,53 @@ h1{
     margin-top: 35px;
     margin-bottom: 35px;
 }
-h3{
+
+h3 {
     font-weight: 500;
     font-size: 30px;
     color: #fff;
     margin-right: 10px;
 
 }
-h4{
+
+h4 {
     font-weight: 400;
     font-size: 29px;
     color: #a7a6a6;
 }
-article{
+
+article {
     display: block;
     width: 864px;
     height: 130px;
     font-weight: 400;
-font-size: 24px;
-line-height: 142%;
-color: #a7a6a6;
-margin-top: 8px;
+    font-size: 24px;
+    line-height: 142%;
+    color: #a7a6a6;
+    margin-top: 8px;
 }
-.review{
+
+.review {
     width: 212px;
-height: 34px;
-color: yellow;
+    height: 34px;
+    color: yellow;
 }
-#stream{
+
+#stream {
     border-radius: 10px;
-width: 272px;
-height: 64px;
-background: #d40d1f;
-margin-right: 50px;
-margin-top: 53px;
+    width: 272px;
+    height: 64px;
+    background: #d40d1f;
+    margin-right: 50px;
+    margin-top: 53px;
 }
-#episode{
+
+#episode {
     border: 3px solid #fff;
-border-radius: 10px;
-background-color: transparent;
-color: #fff;
-width: 271px;
-height: 64px;
-margin-top: 53px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    width: 271px;
+    height: 64px;
+    margin-top: 53px;
 }
