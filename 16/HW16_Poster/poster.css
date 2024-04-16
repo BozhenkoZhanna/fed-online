@@ -14,7 +14,7 @@ body {
 
 .bg-image {
     width: 100%;
-    min-height: 1170px;
+    min-height: 1210px;
     background-image: url("./img/Rectangle\ 1.png");
     background-color: #0f1219;
     background-repeat: no-repeat;
@@ -32,57 +32,62 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
 
 }
 
 header {
-    padding-top: 70px;
+    padding-top: 40px;
     padding-left: 80px;
     /* width: 1520px; */
     /* max-width: 90%; */
-    margin-bottom: 115px;
-   
+    margin-bottom: 100px;
+
 }
 
 .container {
-    
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     /* margin: 0 auto; */
 }
-.block{
+
+.block {
     display: inline-block;
-    
+
 }
-/* .left{
-    align-items: baseline;
-} */
-.left .block{
+
+.left .block {
     margin-left: 80px;
     border-right: 3px solid #c8c8c8;
     padding-right: 16px;
-    
-    }
-    .left .block:last-child{
-        border-right: none;
-        margin-left: 8px;
-        align-self: center;
-    }
-    .left .block:first-child{
-        margin-left: 20px;
-    }
-    .right .block{
-        margin-right: 20px;
-    }
-    main{margin-left: 80px;}
+
+}
+
+.left .block:last-child {
+    border-right: none;
+    margin-left: 8px;
+    align-self: center;
+}
+
+.left .block:first-child {
+    margin-left: 20px;
+}
+
+.right .block {
+    margin-right: 20px;
+}
+
+main {
+    margin-left: 80px;
+}
+
 /* .logo>img {
     border-right: 3px solid #c8c8c8;
     padding-right: 16px;
 }
-
 p {
     width: 250px;
     margin-left: -545px;
@@ -92,31 +97,27 @@ p {
     text-align: center;
     border: none;
 }
-
 .logo>.date {
     display: inline-block;
 
 }
-
 .date {
 
     text-align: center;
     margin-left: 289px;
 
 }
-
 .search {
     /* width: 43px;
     height: 43px; */
-    /* display: inline-block;
+/* display: inline-block;
     margin-top: -57px;
     padding-right: 45px;
     text-align: center;
 }
-
 .search>svg {
     text-align: center;
-} */ */
+} */
 
 
 /* Main container */
@@ -126,6 +127,7 @@ p {
     width: 76%;
     margin-left: 80px;
     margin-top: 116px;
+    /* margin: 0 auto;  */
 }
 
 .genre {
@@ -136,8 +138,6 @@ p {
     color: #fff;
     display: flex;
     justify-content: flex-start
-        /* align-items: flex-start; */
-
 }
 
 .text-block {
@@ -204,6 +204,8 @@ article {
     line-height: 142%;
     color: #a7a6a6;
     margin-top: 8px;
+
+
 }
 
 .review {
@@ -212,13 +214,35 @@ article {
     color: yellow;
 }
 
+.buttons-block{
+width: 50%;
+height: 75px;
+margin-top: 50px;
+}
 #stream {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 142%;
+    color: #fff;
     border-radius: 10px;
     width: 272px;
     height: 64px;
     background: #d40d1f;
     margin-right: 50px;
-    margin-top: 53px;
+   
+}
+
+#stream>.play {
+    display: inline-block;
+    margin-left: 8px;
+
+}
+
+.play {
+    width: 32px;
+    height: 32px;
+    /* padding-top: 16px;
+    padding-right: 37px; */
 }
 
 #episode {
@@ -228,5 +252,62 @@ article {
     color: #fff;
     width: 271px;
     height: 64px;
-    margin-top: 53px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 142%;
+
+}
+
+.slider-announce {
+    /* width: 1600px; */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 54px;
+    
+}
+
+.slider-icons {
+    display: inline-block;
+width: 180px;
+height: 60px;
+}
+
+.slider-icons>img {
+    margin: 0 24px 18px 24px;
+}
+
+.slider-icons>img:hover {
+    cursor: pointer;
+    /* color: white; */
+    background-color: #f7f5f5;
+    border-radius: 100%;
+
+}
+
+.popular-block {
+    width: 342px;
+    height: 26px;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 145%;
+    letter-spacing: 0.14em;
+    color: #fff;
+    margin-right: 430px;
+}
+
+
+.movies>img {
+    width: 151px;
+    height: 210px;
+    border: 1px solid #fff;
+    margin-right: 40px;
+    margin-bottom: 49px;
+}
+
+.movies {
+    width: 1000px;
+    display: inline-block;
+    /* margin: 0 auto; */
 }
