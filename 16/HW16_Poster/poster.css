@@ -98,13 +98,13 @@ main {
 /* Main container */
 /* .content-block {
     /* margin: 80px auto; */
-/* } */ 
+/* } */
 
 .main {
     display: inline-block;
     width: 76%;
     margin-top: 116px;
-    }
+}
 
 .genre {
     max-width: 35%;
@@ -201,6 +201,7 @@ article {
 
 .fa-regular {
     font-size: 29px;
+    color: rgba(214, 212, 174, 0.545);
 }
 
 .buttons-block {
@@ -235,7 +236,7 @@ article {
 .play {
     width: 32px;
     height: 32px;
-   }
+}
 
 #episode {
     border: 3px solid #fff;
@@ -250,11 +251,12 @@ article {
 }
 
 .slider-announce {
-    max-width: 60%;
-    /* width: 960px; */
+    /* max-width: 60%; */
+    width: 960px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: baseline;
     margin-top: 54px;
 }
 
@@ -264,6 +266,36 @@ article {
     align-items: center;
     width: 180px;
     height: 60px;
+}
+
+.left_icon {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+.right_icon {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+.left_icon:hover {
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.right_icon:hover {
+    color: white;
+    background-color: gray;
+    cursor: pointer;
 }
 
 .popular-block {
@@ -279,10 +311,11 @@ article {
     align-items: center;
     margin-bottom: 30px;
 }
+
 .movies>img {
 
     width: 151px;
-    */ height: 210px;
+    height: 210px;
     border: 1px solid #fff;
     margin-right: 40px;
     margin-bottom: 49px;
@@ -378,26 +411,29 @@ article {
     .article {
         margin-bottom: 60px;
     }
-    .buttons-block{
+
+    .buttons-block {
         width: 50%;
-    height: 150px;
+        height: 150px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: baseline;
     }
+
     .side-block {
         position: relative;
     }
-    #stream{
+
+    #stream {
         margin-bottom: 16px;
     }
+
     .slider-announce {
         flex-direction: column;
         justify-content: center;
         align-items: baseline;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
 }
-}
-
