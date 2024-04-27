@@ -57,6 +57,7 @@ body {
 
 .img-block {
     height: 430px;
+    overflow: hidden;
 }
 
 .menu-bar {
@@ -82,6 +83,7 @@ body {
     display: inline-block;
     position: relative;
     top: 50px;
+    margin-left: -15px;
 
 }
 
