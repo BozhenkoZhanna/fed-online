@@ -37,6 +37,10 @@ font-size: 24px;
 line-height: 117%;
 text-align: center;
 }
+.link-nav>a:hover{
+    color: #000;
+    opacity: 0.5;
+}
 
 .mobile {
     width: 780px;
@@ -103,6 +107,7 @@ text-align: center;
     color: #000;
 }
 
+/* main content */
 
 .desktop-img-text{
     width: 1500px;
@@ -137,7 +142,7 @@ text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-    margin-left: 45px;
+    margin-left: 24px;
     margin-top: 28px;
 }
 
@@ -176,7 +181,10 @@ h1 {
     margin-left: 0px;
     margin-bottom: 18px;
     border: none;
-
+}
+#shop-button:hover{
+    background-color: #000;
+    opacity: 0.5;
 }
  .shop-now{
     width: 1500px;
@@ -184,7 +192,7 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 24px;
+    /* margin-left: 24px; */
     position: relative;
     z-index: 1;
     margin-bottom: 62px;
@@ -212,6 +220,9 @@ font-size: 18px;
 line-height: 156%;
 color: #000;
  }
+ .img-block1>a:hover{
+color: #fff;
+ }
 
  .img-block2{
     max-width: 45%;
@@ -236,6 +247,9 @@ font-size: 18px;
 line-height: 156%;
 color: #fff; 
  }
+ .img-block2>a:hover{
+    color: #000;
+     }
     
 .men{
     position: absolute;
@@ -271,7 +285,7 @@ margin-bottom: 35px;
 
 .scroll-block {
     max-width: 100%;
-    overflow: scroll;
+    overflow-x: scroll;
     margin-left: 24px;
 }
 
@@ -301,7 +315,7 @@ margin-bottom: 35px;
 
 .scroll-block2 {
     max-width: 100%;
-    overflow: scroll;
+    overflow-x: scroll;
     margin-left: 24px;
 }
 
@@ -348,11 +362,14 @@ margin-bottom: 35px;
     text-align: center;
     color: #000;
     margin-bottom: 80px;
+    cursor: pointer;
 }
+#join:hover{
+       opacity: 0.5;
+    }
 
 footer {
-    /* width: 390px; */
-    height: 435px;
+       height: 435px;
     background-color: #000;
 }
 
@@ -377,9 +394,6 @@ p {
      justify-content: space-between;
     margin-bottom: 100px;
 }
-
-    
-
 .about {
     display: inline-block;
     width: 14%;
@@ -392,7 +406,6 @@ p {
     margin-top: 63px;
     margin-right: 100px;
 }
-
 .label {
     width: 21px;
     height: 21px;
@@ -424,188 +437,6 @@ h5 {
     text-align: center;
 }
 
-/* desktop version */
-
-/* @media(max-width:800px) {
-    .menu-bar {
-        display: none;
-    }
-    .header-group{
-        margin-right: 42px;
-    }
-    .desktop {
-     width: 40%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    }
-    .mobile {
-        width: 57%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    
-    .img-block {
-        width: 90%;
-        overflow: visible;
-        display: flex;
-        flex-direction: column;
-        margin-top: -149px;
-    }
-
-    .desktop-img-text{
-        width: 90%;
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: center;
-    }
-    .text-block{
-        margin-left: 24px;
-        display: flex;
-        flex-direction: column;
-        margin-left: 24px;
-        align-items: flex-start;
-    }
-    #shop-button{margin-top: 25px;
-        align-items: flex-start;
-    }
-    .main-text{
-        text-align: left;
-    }
-    h1{
-        text-align: left;
-    }
-    .shoes-logo-img1>img{
-        margin-top: 50px;
-        margin-left: 143px;
-        width: 550px;
-        height: 450px;
-    }
-    }
-    .shoes-logo-img2>img{
-        width: 400px;
-    height: 273px;
-    margin-left: 502px;
-           }
-
-.block-container{
-    max-width: 1500px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.block-women{
-    width: 45%;
-    padding: 24px auto;
-}
-.block-women>img{
-    width: ;
-}
-
- */
 
 
-
-
-
-
-
-    
-
-   
-   
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Mobile */
-/* 
-@media(max-width:800px) {
-    .desktop .link-nav {
-        display: none;
-    }
-
-    .menu-bar {
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-    }
-}
-
-.desktop a {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 100%;
-    text-align: center;
-    text-decoration: none;
-    color: #000;
-} */
-
-/* .mobile {
-    display: flex;
-    justify-content: space-between; */
-/* width:50%; */
-
-/* } */
-
-/* .menu-nav {
-    max-width: 90%;
-    margin-left: 24px;
-}
-
-.mobile .menu-bar {
-    display: none;
-}
-
-.desktop {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.link-nav {
-    margin-right: 46px;
-
-}
-
-/* .link-nav:nth-of-type(1){
-    margin-left: 24px;
-} */
-
-
-/* @media(max-width:480px) {
-    .desktop {
-        display: none;
-    }
-
-    .menu-bar {
-        max-width: 85%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: baseline;
-
-    }
-} */
+/* .mobile */
