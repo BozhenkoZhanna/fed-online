@@ -1,0 +1,40 @@
+:root{
+    --mainBg: #333;
+    --mainColor: white;
+    --base-font-size:16px;
+    --ButtonBg:blue;
+    --MARGINAUTO: auto;
+    --main-font-family:"Inter", sans-serif;
+    --secondary-font-family:"Roboto Mono", monospace;
+    
+}
+
+
+/* bad example:
+--title color
+--block@value
+--padding&value */
+
+html,body{
+    /* font-family: "Inter", sans-serif;
+    font-family: "Roboto Mono", monospace; */
+    background-color: var(--mainBg);
+    color: var(--mainColor);
+    font-family: var(--main-font-family);
+    font-size: var(--base-font-size);
+}
+p{
+    font-size: 2rem;
+}
+h3{color: red;
+font-family: var(--secondary-font-family);}
+
+@media(max-width:1200px){
+    :root{
+        --mainBg: rgb(117, 173, 159);
+        --mainColor: black;
+        --base-font-size:10px;
+        --main-font-family:"Roboto Mono", monospace;
+        --secondary-font-family:"Inter", sans-serif;
+    }
+}
