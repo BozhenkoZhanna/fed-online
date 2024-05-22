@@ -421,9 +421,10 @@ p {
 .follow-block {
     margin-top: 63px;
     margin-right: 32px;
-  
+
 }
-.footer-flex{
+
+.footer-flex {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -578,20 +579,30 @@ h5 {
     }
 
 }
-@media (max-width:510px){
+
+@media (max-width:565px) {
     .follow-block {
         margin-top: 0px;
+        margin-left: 24px;
+        margin-bottom: 40px;
     }
+
+    .footer-content {
+        margin-bottom: 40px;
+    }
+
 }
 
 @media (max-width:450px) {
-    
+
     .mobile {
-        width: 60%;}
-      
-    .desktop{
+        width: 60%;
+    }
+
+    .desktop {
         width: 30%;
-    }    
+    }
+
     .logo {
         margin-left: 0px;
     }
@@ -634,4 +645,4 @@ h5 {
         font-size: 16px;
     }
 
-   }
+}
