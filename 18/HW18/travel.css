@@ -39,7 +39,8 @@ body {
 
 .content-container {
     max-width: 1200px;
-    margin-left: 120px;
+    margin: 0 auto;
+    /* margin-left: 120px; */
 }
 
 .header-group {
@@ -224,15 +225,13 @@ h3 {
     .text-block {
         background-color: #c4d7de5f;
     }
+   }
 
-    /* .select-section{
-        background-color: #c4d7de5f; */
-}
 
 p {
     color: #151515;
 }
-}
+
 
 @media(max-width:860px) {
     .header-group {
