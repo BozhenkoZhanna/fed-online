@@ -227,6 +227,11 @@ h3 {
     }
    }
 
+   @media(max-width:1240px){
+   .design-square{
+    opacity: 0.5;
+   }
+}
 
 p {
     color: #151515;
