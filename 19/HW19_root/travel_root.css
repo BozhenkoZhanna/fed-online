@@ -36,9 +36,7 @@ body {
     background-image: url(Image\ \(1\).png);
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
-    z-index: -1;
-}
+    }
 
 .design-square {
     position: absolute;
@@ -131,7 +129,8 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 2 rem;
+    margin-bottom: 40px;
+    margin-top: 80px;
 }
 
 .select-section>img {
@@ -222,13 +221,15 @@ h3 {
 @media(max-width:1500px) {
     .text-block {
         background-color: #c4d7de5f;
-    }
+        }
    }
 
    @media(max-width:1240px){
    .design-square{
     opacity: 0.5;
    }
+   .text-block{margin-left: 24px;}
+   .logo{margin-left: 24px;}
 }
 
 p {
@@ -303,7 +304,7 @@ p {
     }
 }
 
-@media(min-width: 1500px) {
+@media(min-width: 1200px) {
     body {
         background-position: center right;
     }
